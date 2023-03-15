@@ -40,7 +40,7 @@ public class Count {
 			}
 			if(parmap.put(ch, 0)!=null) {
 				count=parmap.get(ch);
-				parmap.put(ch, null)
+				parmap.put(ch, null);
 			}
 
 		}

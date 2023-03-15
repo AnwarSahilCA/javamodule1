@@ -1,0 +1,3 @@
+module testExceptions {
+	requires junit;
+}
