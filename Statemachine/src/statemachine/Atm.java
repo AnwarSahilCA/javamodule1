@@ -1,3 +1,4 @@
+
 package statemachine;
 
 public class Atm implements ATMIface {
@@ -12,7 +13,9 @@ public class Atm implements ATMIface {
 	
 
 
+	
 	public Atm(int a, int notec) {
+
 	
 		this.a = a;
 		this.notec = notec;

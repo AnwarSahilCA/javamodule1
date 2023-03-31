@@ -61,41 +61,41 @@ public class TestStrings {
 		String str= new String("aneeta.roy@ust.com");
 		int pos=str.lastIndexOf('.');
 		String substr=str.substring(pos+1,str.length());
-		System.out.println(substr);
+		System.out.println(substr);)*/
 		String str1=new String("welcome");
 		String str2=new String("welCOME");
 		String str3= str2.toLowerCase();
 		Boolean flag=str1.equalsIgnoreCase(str2);
 		System.out.println(flag);
-		int val =str1.compareTo(str3);
+		int val =str2.compareTo(str1);
 		System.out.println(val);
-		System.out.println(str2.toLowerCase());
-		*/
+//		System.out.println(str2.toLowerCase());
+//		*/
 		//16-11-477/6/A/3 Hyderabad 500036
-		int digit=0;
-		int alp=0;
-		int noda=0;
-		int neith=0;
-		String str1=new String("16-11-477/6/A/3 Hyderabad   500036");
-		for(int i=0;i<str1.length();i++) {
-			if(Character.isDigit(str1.charAt(i))){
-					digit++;
-			}
-			else
-			if(Character.isAlphabetic(str1.charAt(i))) {
-				alp++;
-			}
-			else
-				if(Character.isSpaceChar(str1.charAt(i))) {
-					noda++;
-				}
-				else 
-					 neith++;
-				}
-		System.out.println("Digit count="+digit);
-		System.out.println("Alphabet count="+alp);
-		System.out.println("Space count="+noda);
-		System.out.println("not alphabet/digit/space ="+neith);
+//		int digit=0;
+//		int alp=0;
+//		int noda=0;
+//		int neith=0;
+//		String str1=new String("16-11-477/6/A/3 Hyderabad   500036");
+//		for(int i=0;i<str1.length();i++) {
+//			if(Character.isDigit(str1.charAt(i))){
+//					digit++;
+//			}
+//			else
+//			if(Character.isAlphabetic(str1.charAt(i))) {
+//				alp++;
+//			}
+//			else
+//				if(Character.isSpaceChar(str1.charAt(i))) {
+//					noda++;
+//				}
+//				else 
+//					 neith++;
+//				}
+//		System.out.println("Digit count="+digit);
+//		System.out.println("Alphabet count="+alp);
+//		System.out.println("Space count="+noda);
+//		System.out.println("not alphabet/digit/space ="+neith);
 		
 		}
 }

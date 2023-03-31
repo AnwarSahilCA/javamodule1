@@ -28,15 +28,13 @@ public class Count {
 		String str2 = str1.replaceAll("\\,", "");
 		String par[] = str2.split("[ ]");
 		for (String ch : par) {
-			// System.out.println(ch);
+			
 
 			if (parmap.containsKey(ch)) {
 				count = parmap.get(ch);
 				parmap.put(ch, ++count);
-
 			} else {
-				parmap.put(ch, 1);
-
+				parmap.put(ch,1);
 			}
 			if(parmap.put(ch, 0)!=null) {
 				count=parmap.get(ch);

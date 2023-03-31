@@ -17,7 +17,7 @@ public class Compare {
 		System.out.println(r1.hashCode());
 		System.out.println(r3.hashCode());
 		System.out.println(r2.hashCode());
-		result=r1.equals(r2);//not applicable for primjtives
+		result=r1.equals(r2);//not applicable for primitives
 		System.out.println(result);
 		result=r1.equals(r3);
 		System.out.println(result);

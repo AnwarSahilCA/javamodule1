@@ -9,7 +9,7 @@ public class TestOptional {
 		String str1="hello";
 		//Optional<String> optional=Optional.of(str);
 		
-		Optional<String> optional1=Optional.ofNullable(str);//checking absense and presence of values
+		Optional<String> optional1=Optional.ofNullable(str1);//checking absense and presence of values
 				if(optional1.isPresent())
 					System.out.println("Nullable"+optional1.get());
 				else 

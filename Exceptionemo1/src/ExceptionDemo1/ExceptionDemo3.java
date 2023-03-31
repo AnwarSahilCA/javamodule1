@@ -14,7 +14,7 @@ public class ExceptionDemo3 {
 			
 		}
 		catch(ArithmeticException e) {
-			e.PrintStrackTrace
+			e.PrintStackTrace;
 			
 		}finally {
 			System.out.println("From finally");

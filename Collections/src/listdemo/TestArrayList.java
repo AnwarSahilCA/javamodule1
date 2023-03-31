@@ -8,8 +8,8 @@ public class TestArrayList {
 		// TODO Auto-generated method stub
 		ArrayList flowers=new ArrayList();
 		flowers.add("tulips");
-		flowers.add(new java.util.Date());
-		flowers.add(new java.util.Scanner(System.in));
+		//flowers.add(new java.util.Date());
+//		flowers.add(new java.util.Scanner(System.in));
 		flowers.add("Rose");
 		flowers.add("Jasmine");
 		flowers.add("Lilly");
@@ -17,9 +17,9 @@ public class TestArrayList {
 		System.out.println(flowers.size());
 		System.out.println(flowers);
 		System.out.println(flowers.get(2));
-		System.out.println(flowers.contains("lilly"));
+		System.out.println(flowers.contains("Lilly"));
 		flowers.add(2, "Sunflower");
-		Object a=flowers.remove(2);
+		//Object a=flowers.remove(2);
 		Iterator iter=flowers.iterator();
 		while(iter.hasNext());
 		System.out.println(iter.next());
@@ -46,9 +46,9 @@ public class TestArrayList {
 			String str=(String) obj;
 			System.out.println(str.toUpperCase());
 		}
-		else if(obj instanceof new java.util.Date()) {
+		//else if(obj instanceof new java.util.Date()) {
 			
-		}
+		
 		
 	}
 

@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class KeyboardtoFile {
 
 	public static void main(String[] args) throws IOException{
-		//Mandi  potti monki patti aminaaaaaaa
+		
 		// TODO Auto-generated method stub
 		String data=null;
 		InputStreamReader isr=new InputStreamReader(System.in);

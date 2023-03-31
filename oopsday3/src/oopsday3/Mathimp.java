@@ -2,10 +2,7 @@ package oopsday3;
 
 public class Mathimp implements mathIface {
 
-	public Mathimp()
-	{
-		
-	}
+	 
 
 	@Override
 	public int factorial(int a) {
